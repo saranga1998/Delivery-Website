@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+/*open Home*/
+.home{
+    height: 897px;
+    width: 100%;
+}
+
+.navbar{
+    
+    padding: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    width: 83px;
+    height: 30px;
+}
+#navlist{
+    display: flex;
+    list-style: none;
+}
+
+#navlist li a{
+    padding-left: 100px;
+    text-decoration: none;
+    font-family:"Poppins";
+    font-weight: 600;
+    color:#000;
+    font-size: 15px;
+
+}
+
+#odr-btn{
+    background-color: #FFC40A ;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 25px;
+    color: #000;
+    font-weight: 700;
+}
+
+.container-home{
+    display: flex;
+    padding: 30px;
+}
+
+.dis{
+    display: inline;
+}
+
+#dis-topic{
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#dis-txt{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#dis-btn{
+    background-color: #FFC40A ;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    color: #000;
+    font-weight: 700;
+}
+#homeImg{
+    height: 720px;
+    width: 870px;
+}
+
+/*close Home*/
+
+/*Open about*/
+.about{
+    height: 1586px;
+    width: 100%;
+    
+}
+
+.about-container{
+    display: inline;
+    padding: 30px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutImg{
+    height: 505px;
+    width: 675px;
+    padding: 150px;
+}
+
+.row-dis{
+    display: inline;
+    width: 400px;
+    padding: 80px;
+    margin-top: 50px;
+}
+
+.Rowdis-topic{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 30px;
+    color: #000;
+}
+.Rowdis-txt{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    color: #777776;
+}
+
+/*Close about*/
+
+
+/*Open Service*/
+.service{
+    height: 1586px;
+    width: 100%;
+    
+}
+
+.service-container{
+    display: inline;
+    
+}
+
+#service-topic{
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.service-box-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    width: 380px;
+    height: 380px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-topic{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.box-img{
+    width: 200;
+    height: 120;
+    padding: 0 70px 0 100px;
+}
+
+.box-txt{
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0 50px 0 50px;
+}
+
+.lm{
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.service-app{
+    /*margin-top: 100px;*/
+    margin-top: 400px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-around ;
+}
+.appImg{
+    width: 540px;
+    height: 500px;
+}
+
+.appText-div{
+    width: 500px;
+    height: 800px;
+}
+#appTopic{
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#appText{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.appBtn-div{
+    display: flex;
+}
+
+.Btndiv{
+    margin: 10px;
+    height: 61px;
+    width: 220px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 61px;
+    background-color: #FFC40A;
+}
+.btnImg{
+    height: 24px;
+    width: 22px;
+    padding-top: 20px;
+}
+.btnTxt{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Close Service*/
+
+/*Open conatcts*/
+.contact{
+    height: 1000px;
+    width: 100%;
+}
+
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+    /*margin: 0 40px 0 40px;*/
+    padding: 20px;
+}
+.contact-txt{
+    width: 500px;
+    
+    padding: 20px;
+}
+#con-tpoic{
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:  62px ;
+}
+
+#con-text{
+    color: #777776;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contacts{
+    display: inline;
+    
+    width: 500px;
+    padding: 50px 10px 10px 50px;
+}
+
+.part{
+    display: flex;
+    width: 280px;
+}
+
+.part-txt{
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:  28px 
+}
+
+.part-info{
+    color: #777776;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.con-btn{
+    
+    width: 300px;
+    padding: 100px 0 0 150px;
+}
+.contact-btn{
+    background-color: #FFC40A ;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    color: #000;
+    font-weight: 700;
+}
+
+
+.contact-links{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background: #FEE395;
+}
+.link-box-topic{
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.box-content{
+    display: inline;
+}
+
+.box-content-txt{
+    color: #777776;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.icon-box{
+    display: flex;
+    
+}
+.linkBox-icon{
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+/*close conatcts*/
